@@ -35,3 +35,27 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// **************************** Memory ********************************************
+
+// stack(Primitive) ,  Heap (non-Primitive)
+
+let myInstaagramId = "Vachhani_utsav" ; 
+
+let mySeconfId = myInstaagramId;
+console.log(myInstaagramId);
+console.log(mySeconfId);
+
+let userOne = {
+    email : "utsavvachhani2@gmail.com" ,
+    upi: "user1@" 
+}
+
+let userTwo = userOne;
+
+userTwo.email = "vachhaniutsav2@gmail.com" ;
+
+console.log(userOne.email);
+console.log(userTwo.email);
