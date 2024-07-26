@@ -3,7 +3,7 @@
 {
 	"name": "Node.js",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -15,21 +15,7 @@
 	// "postCreateCommand": "yarn install",
 
 	// Configure tool-specific properties.
-	"customizations" : {
-		".github": {
-			"extensions": [
-				"esbenp.prettier-github",
-				"github-icons-team.github-icons",
-				"wayou.github-todo-highlight"
-			],
-			"settings": {
-				"editor.fontSize": 32,
-				"terminal.integrated.fontSize": 24,
-				"editor.wordWrap": "on"
-			}
-			
-		}
-	}
+	// "customizations" : {}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
