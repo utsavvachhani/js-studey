@@ -8,7 +8,6 @@ if (true) {
 }
 
 
-
 // console.log(a);
 // console.log(b);
 // console.log(c);
@@ -40,7 +39,6 @@ if (true) {
 
 // console.log(username);
 
-
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
@@ -50,9 +48,7 @@ function addone(num){
     return num + 1
 }
 
-
-
 addTwo(5)
-const addTwo = function(num){
+const addTwo = function(num){  
     return num + 2
-}
+} //It's used for delecration after using the function
